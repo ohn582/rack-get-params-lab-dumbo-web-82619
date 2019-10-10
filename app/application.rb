@@ -27,4 +27,8 @@ class Application
       return "Couldn't find #{search_term}"
     end
   end
+  
+  get '/cart' do
+  end
+
 end
